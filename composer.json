@@ -1,0 +1,20 @@
+{
+    "name": "d3yii2/d3data",
+    "description": "D3 Data",
+    "type": "library",
+    "keywords": ["yii2"],
+    "authors": [
+        {
+            "name": "Uldis Nelsons",
+            "email": "uldis@weberp.lv"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "d3yii2\\d3data\\": ""
+        }
+    }
+}
