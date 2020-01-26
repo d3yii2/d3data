@@ -1,8 +1,9 @@
 {
     "name": "d3yii2/d3data",
-    "description": "D3 Data",
+    "description": "Pivot reporting",
     "type": "library",
-    "keywords": ["yii2"],
+    "keywords": ["yii2","pivot"],
+    "license": "BSD-4-Clause",
     "authors": [
         {
             "name": "Uldis Nelsons",
