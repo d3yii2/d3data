@@ -13,7 +13,7 @@ class D3DataListColumn extends D3DataColumn
 
     public function getCellValue(array $row, int $index)
     {
-        return $this->list[$row[$this->name]]??' ??? ';
+        return $this->list[$row[$this->name]]?? ($row[$this->name]?' ??? ':' - ');
     }
 
     public function getFilterList(): array
